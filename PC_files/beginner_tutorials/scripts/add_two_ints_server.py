@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 
+# Author: Yanrui Wang
+# email: yw2226@cornell.edu
+# copyright to Yanrui Wang
+
 from beginner_tutorials.srv import AddTwoInts,AddTwoIntsResponse
 import rospy
 

@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 
+# Author: Yanrui Wang
+# email: yw2226@cornell.edu
+# copyright to Yanrui Wang
+
 import sys
 import rospy
 from beginner_tutorials.srv import *

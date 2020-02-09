@@ -1,5 +1,8 @@
 #!/usr/bin/env python
-# Software License Agreement (BSD License)
+
+# Author: Yanrui Wang
+# email: yw2226@cornell.edu
+# copyright to Yanrui Wang
 
 import rospy
 from std_msgs.msg import String
