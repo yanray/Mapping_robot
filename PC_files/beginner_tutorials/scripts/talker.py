@@ -1,0 +1,34 @@
+#!/usr/bin/env python
+# Software License Agreement (BSD License)
+
+import rospy
+from std_msgs.msg import String
+
+def talker():
+#	"chatter" topic, message type String (std_msgs.msg.String), queue_size is like a limit
+    pub = rospy.Publisher('chatter', String, queue_size=10)
+
+#	init a node name, anonymous adds a random number at the end of node NAME, make it unique. 
+    rospy.init_node('talker', anonymous=True)
+
+#	10 times-loop per second
+    rate = rospy.Rate(10) # 10hz
+
+
+    while not rospy.is_shutdown():
+#        hello_str = "hello world %s" % rospy.get_time()
+#        rospy.loginfo(hello_str)
+#        pub.publish(hello_str)
+
+        print "input control commands from keyboard?"
+        control_command = raw_input()
+
+        rospy.loginfo(control_command)
+        pub.publish(control_command)
+        rate.sleep()
+
+if __name__ == '__main__':
+    try:
+        talker()
+    except rospy.ROSInterruptException:
+        pass 
