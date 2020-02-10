@@ -19,7 +19,7 @@ Download files in ***RPi3_files*** and put them in your *src* folder.
 
 ### laser cutting
 
-Download files in ****laser_cut*** and build your robot to test. 
+Download files in ***laser_cut*** and build your robot to test. 
 
 **Laser Cutting Size:** (in Width)
 
