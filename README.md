@@ -11,11 +11,11 @@ Follow the *reference of Yanrui Wang.pdf* step by step.
 
 ### On PC (laptop) 
 
-Download files in ****PC_files*** and put them in your *src* folder. 
+Download files in ***PC_files*** and put them in your *src* folder. 
 
 ### On Raspberry Pi 3b+
 
-Download files in ****RPi3_files*** and put them in your *src* folder. 
+Download files in ***RPi3_files*** and put them in your *src* folder. 
 
 ### laser cutting
 
