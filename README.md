@@ -27,3 +27,10 @@ Download files in ***laser_cut*** and build your robot to test.
 2. 2_middle_layer: 291mm
 3. 3_top_layer:    291mm 
 4. 4_battery_layer: top one (94mm), bottom left (56mm), bottom right (56mm)
+
+
+### package for ssh service 
+
+sudo apt-get purge openssh-server
+sudo apt-get install openssh-server
+
